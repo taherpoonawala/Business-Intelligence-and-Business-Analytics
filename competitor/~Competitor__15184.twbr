@@ -1,0 +1,1208 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Competitor Analysis_Full Data' inline='true' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Competitor Analysis_Full Data' name='textscan.0ucsah216awe1m15yux8e1yrxnuc'>
+            <connection class='textscan' directory='D:/Semester 1-NCI/BIBA/competitor' filename='Competitor Analysis_Full Data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ucsah216awe1m15yux8e1yrxnuc' name='Competitor Analysis_Full Data.csv' table='[Competitor Analysis_Full Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Company Name' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='date' name='Month Name' ordinal='2' />
+            <column datatype='string' name='Parameter' ordinal='3' />
+            <column datatype='integer' name='Number of Records' ordinal='4' />
+            <column datatype='integer' name='Value' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0ucsah216awe1m15yux8e1yrxnuc' name='Competitor Analysis_Full Data.csv' table='[Competitor Analysis_Full Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Company Name' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='date' name='Month Name' ordinal='2' />
+            <column datatype='string' name='Parameter' ordinal='3' />
+            <column datatype='integer' name='Number of Records' ordinal='4' />
+            <column datatype='integer' name='Value' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Competitor Analysis_Full Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Name]</local-name>
+            <parent-name>[Competitor Analysis_Full Data.csv]</parent-name>
+            <remote-alias>Company Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Competitor Analysis_Full Data.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month Name</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Month Name]</local-name>
+            <parent-name>[Competitor Analysis_Full Data.csv]</parent-name>
+            <remote-alias>Month Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Parameter</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Parameter]</local-name>
+            <parent-name>[Competitor Analysis_Full Data.csv]</parent-name>
+            <remote-alias>Parameter</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[Competitor Analysis_Full Data.csv]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[Competitor Analysis_Full Data.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Zero axis' datatype='integer' name='[Calculation_374924697634353152]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='0' />
+      </column>
+      <column caption='Sale' datatype='integer' name='[Calculation_374924697647792134]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Value])*1000' />
+      </column>
+      <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+      <column datatype='date' name='[Month Name]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Competitor Analysis_Full Data.csv' datatype='table' name='[__tableau_internal_object_id__].[Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C]' role='measure' type='quantitative' />
+      <column-instance column='[Month Name]' derivation='Month' name='[mn:Month Name:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_374924697634353152]' derivation='Sum' name='[sum:Calculation_374924697634353152:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Month Name]' derivation='Month-Trunc' name='[tmn:Month Name:ok]' pivot='key' type='ordinal' />
+      <group caption='Action (Company Name)' hidden='true' name='[Action (Company Name)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Company Name]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Company Name,MONTH(Month Name))' hidden='true' name='[Action (Company Name,MONTH(Month Name))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Company Name]' />
+          <groupfilter function='level-members' level='[tmn:Month Name:ok]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (MONTH(Month Name))' hidden='true' name='[Action (MONTH(Month Name))]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[mn:Month Name:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[mn:Month Name:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Company Name:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Vintage Woods&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Standard Furniture&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Chromcraft&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Capris&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bassett&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Competitor Analysis_Full Data.csv' id='Competitor Analysis_Full Data.csv_1E1599CDDCDA451E88B8376636ED410C'>
+            <properties context=''>
+              <relation connection='textscan.0ucsah216awe1m15yux8e1yrxnuc' name='Competitor Analysis_Full Data.csv' table='[Competitor Analysis_Full Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Company Name' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='date' name='Month Name' ordinal='2' />
+                  <column datatype='string' name='Parameter' ordinal='3' />
+                  <column datatype='integer' name='Number of Records' ordinal='4' />
+                  <column datatype='integer' name='Value' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+      <datasources>
+        <datasource caption='Competitor Analysis_Full Data' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+        <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+        <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]'>
+        <groupfilter function='level-members' level='[none:Company Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_A67D73E4849843E4AB2B32A677485EF5]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Competitor Overview' type='sheet' worksheet='Sales' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Competitor Overview' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_8635B1B499114DDC85392861DFF650EB]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Competitor Overview' type='sheet' worksheet='Revenue' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Competitor Overview' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_AD17A10D45AD4A25A9C2834060FD9502]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Competitor Overview' type='sheet' worksheet='Orders' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Competitor Overview' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_7B47EF3EFD644BB696BC0F257827C5F8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Competitor Overview' type='sheet' worksheet='Performance' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Competitor Overview' />
+      </command>
+    </action>
+    <action caption='Filter 5 (generated)' name='[Action5_3632DBA07F484AEAB917A085D4219759]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Competitor Overview' type='sheet' worksheet='Sales Development' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Competitor Overview' />
+      </command>
+    </action>
+    <action caption='Highlight 1 (generated)' name='[Action6_05E366A0AAED4115ACE8855EBF9CDA34]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Revenue' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Company Name' />
+        <param name='target' value='Revenue' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Orders'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Competitor Analysis_Full Data' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+            <column caption='Zero axis' datatype='integer' name='[Calculation_374924697634353152]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column caption='Sale' datatype='integer' name='[Calculation_374924697647792134]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Value])*1000' />
+            </column>
+            <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month Name]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Parameter]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month' name='[mn:Month Name:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Parameter]' derivation='None' name='[none:Parameter:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_374924697634353152]' derivation='Sum' name='[sum:Calculation_374924697634353152:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month-Trunc' name='[tmn:Month Name:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_374924697647792134]' derivation='User' name='[usr:Calculation_374924697647792134:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]'>
+            <groupfilter function='level-members' level='[Company Name]' user:ui-action-filter='[Action2_8635B1B499114DDC85392861DFF650EB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A67D73E4849843E4AB2B32A677485EF5]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Company Name]' />
+              <groupfilter function='level-members' level='[tmn:Month Name:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]'>
+            <groupfilter function='level-members' level='[mn:Month Name:ok]' user:ui-action-filter='[Action5_3632DBA07F484AEAB917A085D4219759]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]'>
+            <groupfilter function='member' level='[none:Parameter:nk]' member='&quot;Sales&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' />
+              <text column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' />
+              <text column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[usr:Calculation_374924697647792134:qk]' />
+              <lod column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' />
+              <size column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Company Name:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Value:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.6574585437774658' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk] + [federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{339C8ED4-B21D-4D5C-A069-A168D8115357}' />
+    </worksheet>
+    <worksheet name='Performance'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Competitor Analysis_Full Data' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+            <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month Name]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Parameter]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month' name='[mn:Month Name:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Parameter]' derivation='None' name='[none:Parameter:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month-Trunc' name='[tmn:Month Name:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]'>
+            <groupfilter function='level-members' level='[Company Name]' user:ui-action-filter='[Action2_8635B1B499114DDC85392861DFF650EB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A67D73E4849843E4AB2B32A677485EF5]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Company Name]' />
+              <groupfilter function='level-members' level='[tmn:Month Name:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]'>
+            <groupfilter function='level-members' level='[mn:Month Name:ok]' user:ui-action-filter='[Action5_3632DBA07F484AEAB917A085D4219759]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]'>
+            <groupfilter function='member' level='[none:Parameter:nk]' member='&quot;Sales&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[tmn:Month Name:ok]' value='120' />
+            <format attr='width' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' value='120' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' />
+              <text column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#216da7' />
+                <format attr='mark-transparency' value='255' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]</rows>
+        <cols>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]</cols>
+      </table>
+      <simple-id uuid='{191C43A2-EC7C-46CC-9636-4E6D0EBA2E01}' />
+    </worksheet>
+    <worksheet name='Revenue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Competitor Analysis_Full Data' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+            <column caption='Zero axis' datatype='integer' name='[Calculation_374924697634353152]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month Name]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month' name='[mn:Month Name:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_374924697634353152]' derivation='Sum' name='[sum:Calculation_374924697634353152:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month-Trunc' name='[tmn:Month Name:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A67D73E4849843E4AB2B32A677485EF5]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Company Name]' />
+              <groupfilter function='level-members' level='[tmn:Month Name:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]'>
+            <groupfilter function='level-members' level='[mn:Month Name:ok]' user:ui-action-filter='[Action5_3632DBA07F484AEAB917A085D4219759]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' field-type='quantitative' fold='true' max='1' min='-1' range-type='fixed' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' field-type='quantitative' max='1' min='-1' range-type='fixed' scope='rows' type='space' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' />
+              <wedge-size column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' />
+              <size column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' />
+              <text column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' />
+              <text column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Company Name:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Value:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='3.6132595539093018' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk] + [federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Calculation_374924697634353152:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{6380FA1C-D651-45AF-A9E2-D49DE78390E2}' />
+    </worksheet>
+    <worksheet name='Sales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Competitor Analysis_Full Data' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+            <column caption='Sale' datatype='integer' name='[Calculation_374924697647792134]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Value])*1000' />
+            </column>
+            <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month Name]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Parameter]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month' name='[mn:Month Name:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Parameter]' derivation='None' name='[none:Parameter:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month Name]' derivation='Month-Trunc' name='[tmn:Month Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_374924697647792134]' derivation='User' name='[usr:Calculation_374924697647792134:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]'>
+            <groupfilter function='level-members' level='[Company Name]' user:ui-action-filter='[Action2_8635B1B499114DDC85392861DFF650EB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]'>
+            <groupfilter function='level-members' level='[mn:Month Name:ok]' user:ui-action-filter='[Action5_3632DBA07F484AEAB917A085D4219759]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]'>
+            <groupfilter function='member' level='[none:Parameter:nk]' member='&quot;Sales&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (MONTH(Month Name))]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[tmn:Month Name:qk]' scope='cols' value='' />
+            <format attr='tick-color' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[tmn:Month Name:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[tmn:Month Name:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='5' />
+            <format attr='stroke-color' value='#000000' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' value='215' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' value='Company Name'>
+              <formatted-text>
+                <run>Company Name</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' value='Company Name'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontname='Tableau Light' fontsize='24'>Company Name</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' />
+              <text column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[usr:Calculation_374924697647792134:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[usr:Calculation_374924697647792134:qk]</rows>
+        <cols>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[tmn:Month Name:qk]</cols>
+      </table>
+      <simple-id uuid='{2A4694AB-1AA5-476E-94FC-D7D1380B3EFB}' />
+    </worksheet>
+    <worksheet name='Sales Development'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Competitor Analysis_Full Data' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+            <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Month Name]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Parameter]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month' name='[mn:Month Name:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Parameter]' derivation='None' name='[none:Parameter:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month Name]' derivation='Month-Trunc' name='[tmn:Month Name:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]'>
+            <groupfilter function='level-members' level='[Company Name]' user:ui-action-filter='[Action2_8635B1B499114DDC85392861DFF650EB]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_A67D73E4849843E4AB2B32A677485EF5]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Company Name]' />
+              <groupfilter function='level-members' level='[tmn:Month Name:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]'>
+            <groupfilter function='member' level='[none:Parameter:nk]' member='&quot;Orders&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Parameter:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name)]</column>
+            <column>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[Action (Company Name,MONTH(Month Name))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' scope='rows' value='Number of Orders' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' value='148' />
+            <format attr='font-weight' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' value='#ffffff' />
+            <format attr='font-weight' data-class='total' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' value='bold' />
+            <format attr='font-weight' data-class='subtotal' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' value='-90' />
+            <format attr='font-weight' field='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' value='bold' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' />
+              <text column='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]</rows>
+        <cols>[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]</cols>
+      </table>
+      <simple-id uuid='{AFC7A002-024E-4FF6-88C0-F7077BD6258D}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Competitor Overview'>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Competitor Analysis_Full Data' name='federated.1g7e6mr14s5nj91646zgh15hmlmu' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1g7e6mr14s5nj91646zgh15hmlmu'>
+        <column datatype='string' name='[Company Name]' role='dimension' type='nominal' />
+        <column-instance column='[Company Name]' derivation='None' name='[none:Company Name:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='44288' id='3' name='Performance' w='62978' x='57' y='54130' />
+        <zone h='45782' id='4' name='Sales Development' w='35710' x='63719' y='52988' />
+        <zone h='31986' id='8' name='Orders' w='24614' x='76340' y='15202' />
+        <zone h='32777' id='11' name='Revenue' w='21117' x='54995' y='15202' />
+        <zone h='34095' id='24' name='Sales' w='54022' x='114' y='15554' />
+        <zone h='7206' id='31' type-v2='text' w='33257' x='742' y='4130'>
+          <formatted-text>
+            <run bold='true' fontsize='30'>Competitor Analysis</run>
+          </formatted-text>
+        </zone>
+        <zone h='9402' id='32' mode='dropdown' name='Sales' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' type-v2='filter' values='database' w='22191' x='77011' y='3427' />
+        <zone h='176' id='37' type-v2='empty' w='96977' x='2054' y='14411'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#000000' />
+          </zone-style>
+        </zone>
+        <zone h='4218' id='60' leg-item-layout='horz' name='Sales' pane-specification-id='0' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' type-v2='color' w='53179' x='3315' y='50615' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1600' minheight='1600' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='62' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98594' id='61' param='vert' type-v2='layout-flow' w='99274' x='363' y='703'>
+                <zone h='7206' id='31' type-v2='text' w='33257' x='742' y='4130'>
+                  <formatted-text>
+                    <run bold='true' fontsize='30'>Competitor Analysis</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='262' h='32777' id='11' is-fixed='true' name='Revenue' w='21117' x='54995' y='15202'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='256' h='31986' id='8' is-fixed='true' name='Orders' w='24614' x='76340' y='15202'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9402' id='32' mode='dropdown' name='Sales' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' type-v2='filter' values='database' w='22191' x='77011' y='3427'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='273' h='34095' id='24' is-fixed='true' name='Sales' w='54022' x='114' y='15554'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4218' id='60' leg-item-layout='horz' name='Sales' pane-specification-id='0' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' type-v2='color' w='53179' x='3315' y='50615'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45782' id='4' is-fixed='true' name='Sales Development' w='35710' x='63719' y='52988'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44288' id='3' is-fixed='true' name='Performance' w='62978' x='57' y='54130'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{24886AED-1E00-48F9-953F-54A7A13FD203}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' show-side-pane='false' source-height='2'>
+    <window class='worksheet' name='Performance' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{73C22255-CED2-4B8D-9FBE-DF81114B3FB3}' />
+    </window>
+    <window class='worksheet' name='Sales Development' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[mn:Month Name:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E5B3E086-A9EE-4883-B649-4034DF70FE2E}' />
+    </window>
+    <window class='worksheet' name='Orders' tab-color='#dec77b'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' type='size' />
+            <card pane-specification-id='1' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8F3F29E0-C144-475C-BAFF-F49E8D992334}' />
+    </window>
+    <window class='worksheet' name='Revenue' tab-color='#a65200'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[sum:Value:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{9E0B3CC4-007C-4DDA-A16A-803020EF2F77}' />
+    </window>
+    <window class='worksheet' name='Sales' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1g7e6mr14s5nj91646zgh15hmlmu].[none:Company Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7C54D413-1A4A-41EA-92F2-8C780A242B86}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Competitor Overview'>
+      <viewpoints>
+        <viewpoint name='Orders'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Performance'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Revenue'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Sales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales Development'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='11' />
+      <simple-id uuid='{FA6AFB8E-FF93-412F-B960-07FBD41A1DBD}' />
+    </window>
+  </windows>
+</workbook>
